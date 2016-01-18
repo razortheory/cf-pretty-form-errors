@@ -1,0 +1,56 @@
+.error-tooltip {
+    cursor: pointer;
+    position: absolute;
+    right: 0.5em;
+    color: grey;
+    font-size: 110%;
+    top: 0.5em;
+}
+
+.has-error input.pretty_field,
+.has-error textarea.pretty_field {
+    padding-right: 2.5em;
+}
+
+.has-error select.pretty_field{
+    padding-right: 1em;
+}
+
+.error-tooltip:active,
+.error-tooltip:hover,
+.error-tooltip:focus{
+    color: #04A87E;
+}
+
+.layout-relative {
+    position: relative;
+}
+
+/* Changing tooltip colors */
+.tooltip.tooltip-error-text .tooltip-inner,
+.tooltip.tooltip-help-text .tooltip-inner {
+    background-color:white;
+    color: black;
+    border: 1px solid #adb2b0;
+}
+
+.tooltip.tooltip-error-text .tooltip-inner {
+    border-color: #cb1a1a;
+}
+
+.tooltip.tooltip-help-text .tooltip-inner p,
+.tooltip.tooltip-error-text .tooltip-inner p {
+    margin: 0;
+}
+
+.tooltip.tooltip-error-text.bottom .tooltip-arrow {
+    border-bottom-color: #cb1a1a;
+}
+
+.tooltip.tooltip-error-text.top .tooltip-arrow {
+    border-top-color: #cb1a1a;
+}
+
+.tooltip.tooltip-help-text.bottom .tooltip-arrow {
+    border-bottom-color: #adb2b0;
+}

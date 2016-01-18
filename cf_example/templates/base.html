@@ -1,0 +1,20 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/example_form_styles.css' %}">
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    {% block js %}
+    {% endblock %}
+</body>
+</html>
