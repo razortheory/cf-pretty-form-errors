@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='cf-pretty-form-errors',
-    version='1.0.2a',
+    version='1.0.3a',
     packages=['cf_pretty_form_errors', ],
     include_package_data=True,
     license='BSD License',
@@ -20,6 +20,7 @@ setup(
     author_email='fpm.th13f@gmail.com',
     install_requires=['django-crispy-forms', ],
     classifiers=[
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
