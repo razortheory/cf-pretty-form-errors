@@ -14,7 +14,7 @@ Quick start
         ...
     ]
 
-2. If crispy forms not configured, add template pack to your settings.py::
+2. If crispy forms not configured, add template pack to your settings file::
 
     CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
