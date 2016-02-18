@@ -9,13 +9,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='cf-pretty-form-errors',
-    version='1.0.3a',
+    version='1.0.4',
     packages=['cf_pretty_form_errors', ],
     include_package_data=True,
     license='BSD License',
     description='Make your crispy form errors more pretty',
     long_description=README,
-    url='',
+    keywords='crispy-forms errors',
+    url='https://github.com/razortheory/cf-pretty-form-errors',
     author='Roman Karpovich',
     author_email='fpm.th13f@gmail.com',
     install_requires=['django-crispy-forms', ],
@@ -28,8 +29,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
+    zip_safe=True
 )
